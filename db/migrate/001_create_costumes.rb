@@ -9,6 +9,11 @@
 # value types according to the spec
 class CreateCostumes
   def change
-    create_table 
+    create_table :costumes do |t|
+      t.string :names
+      t.float :price 
+      t.integer :size 
+      t.string :image_url
+      t.timestamp
   end 
 end 
