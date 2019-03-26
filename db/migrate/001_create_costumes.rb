@@ -15,5 +15,6 @@ class CreateCostumes
       t.integer :size 
       t.string :image_url
       t.timestamp
+    end
   end 
 end 
